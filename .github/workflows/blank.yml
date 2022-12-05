@@ -23,7 +23,7 @@ jobs:
         run: |
          sudo apt-get update
          sudo apt-get install -y nginx
-         ls -a*
+         ls -a
          
       - name: test
         run: (test -f index.html && echo 'index présent') || echo
